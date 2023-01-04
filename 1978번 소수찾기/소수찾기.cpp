@@ -3,14 +3,14 @@
 using namespace std;
 int main()
 {
-	int n;	//입력받을 정수의 개수
-	int count = 0;	//나눠지는수가 몇개인지 알려주는 변수
-	int num;	//입력받을 정수
-	int r = 0;	//소수의 개수
+	int n;	//입력받을 정수의 개수 선언
+	int count = 0;	//나눠지는수가 몇개인지 알려주는 변수 선언
+	int num;	//입력받을 정수 선언
+	int r = 0;	//소수의 개수 선언
 
 	cin >> n;	//정수의 개수 입력
 
-	for (int i = 0; i < n; i++)	//n번만큼 반복
+	for (int i = 0; i < n; i++)	//입력한 정수의 개수 n번만큼 반복
 	{
 		cin >> num;	//소수인지 아닌지 확인할 정수 입력
 
