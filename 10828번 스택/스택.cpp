@@ -5,11 +5,11 @@
 using namespace std;
  
 int main(void){
-    int n;
-    cin >> n;
+    int n; //n을 선언 한다
+    cin >> n; // n을 입력 받는다
     
-    stack<int> st; //int type의 stack 선언. 
-    string str;
+    stack<int> st; //int 타입 stack 선언. 
+    string str; //string 타입 str선언
  
     for(int i=0; i<n; i++) {
         cin >> str;
